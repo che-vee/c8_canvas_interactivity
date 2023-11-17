@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	justify-content: center;
+	background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	font-family: sans-serif;
+}
+
+header {
+	margin-bottom: 2rem;
+	color: #fff;
+	font-size: 3rem;
+}
+
+canvas {
+	background: #fff;
+	border-radius: 16px;
+}
+
+#tool-bar {
+	justify-content: center;
+	margin-top: 2rem;
+	background: #ffffffa0;
+	border-radius: 8px;
+	padding: 1rem;
+}
+
+button {
+	padding: 0.5rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	background: #eee;
+	color: #333;
+}
+
+.selected-button {
+	background-color: #a18cd1;
+}
